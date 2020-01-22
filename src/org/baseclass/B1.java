@@ -20,9 +20,7 @@ public static void input(String a, String b) {
 	driver.findElement(By.id(a)).sendKeys(b);
 }
 public static void clik(String c) {
-	driver.findElement(By.id(c)).click();
-}
-public static void quit() {
-	driver.quit();
+	System.out.println("Hasta Livista"
+			+ "Danerys");
 }
 }
