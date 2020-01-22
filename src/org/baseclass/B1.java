@@ -25,4 +25,8 @@ public static void clik(String c) {
 public static void quit() {
 	driver.quit();
 }
+public static void main(String[] args) {
+	System.out.println("Hello User");
+	System.out.println("Welcome");
+}
 }
